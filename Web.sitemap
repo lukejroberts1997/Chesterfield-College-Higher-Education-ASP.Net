@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode url="~/" title="Home" description="Home">
+    <siteMapNode url="~/Default.aspx" title="Home" description="Go to the homepage" />
+
+    <siteMapNode url="~/Courses" title="Departments" description="All Deparments">
+    <siteMapNode url="~/Computing" title="Computing" description="Computing Courses"/>
+      <siteMapNode url="~/Education" title="Education Studies" description="Education Studies." />
+      <siteMapNode url="~/PublicServices" title="Public Services" description="Public Services" />
+      <siteMapNode url="~/Health" title="Health and Social Care" description="Health and Social." />
+      <siteMapNode url="~/Construction" title="Construction and Engineering" description="Construction and Engineering" />
+    </siteMapNode>
+    
+    <siteMapNode url="~/About" title="About" description="About this Site">
+      <siteMapNode url="~/Contact" title="Contact Us" description="Contact Us" />
+      <siteMapNode url="~/MyProfile" title="My Profile" description="My Profile" />
+      <siteMapNode url="~/MessageBoard" title="Message Board" description="Message Board" />
+    </siteMapNode>
+    
+    <siteMapNode url="~/Login" title="Login" description="Log in to this web site">
+      <siteMapNode url="~/SignUp" title="Register" description="Sign Up" />
+    </siteMapNode>
+    </siteMapNode>
+</siteMap>
